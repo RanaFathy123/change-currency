@@ -1,0 +1,31 @@
+#sectionOne {
+  position: relative;
+}
+#sectionTwo {
+  position: relative;
+}
+
+#imgOne,
+#imgTwo {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+#selectOne,
+#selectTwo {
+  padding: 8px 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #040404;
+  color: white;
+  font-weight: bold;
+}
+input {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid rgb(4, 2, 2) !important;
+  font-size: 16px !important;
+  padding: 5px 0 !important;
+  transition: border-bottom-color 0.3s ease !important;
+}
